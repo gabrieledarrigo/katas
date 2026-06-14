@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es2025",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["es2025"],
+    "types": ["jest", "node"],
+    "rootDir": "src",
+    "outDir": "dist",
+    "allowJs": false,
+    "strict": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
