@@ -6,7 +6,11 @@ export interface TennisGame {
 export class TennisGame1 implements TennisGame {
   private m_score1: number = 0;
   private m_score2: number = 0;
+
+  // @ts-expect-error The original code doesn't reference player1Name
   private player1Name: string;
+
+  // @ts-expect-error The original code doesn't reference player2Name
   private player2Name: string;
 
   constructor(player1Name: string, player2Name: string) {

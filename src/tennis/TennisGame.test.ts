@@ -1,4 +1,4 @@
-import { TennisGame, TennisGame1 } from "./TennisGame";
+import { TennisGame, TennisGame1 } from "./TennisGame.refactoring";
 
 function getAllScores(): Array<[number, number, string]> {
   return [
